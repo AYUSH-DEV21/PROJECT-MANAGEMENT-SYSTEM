@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylemanagerpage.css">
+</head>
+<body>
+    <section id="home" class="section">
+        <div class="home-container">
+          <header>
+            <div class="header">
+              <div class="logo">
+                <img src="logo1.png" alt="Logo" class="logo">
+              </div>
+              <nav>
+                <ul>
+                    <li><a href="managerpage.html">Dashboard</a></li>
+                    <li><a href="equipment_details.html"> Equipment Details </a></li>
+                    <li><a href="task_management_interface.html">Task Management</a></li>
+                    <li><a href="reports.html">Reports</a></li>
+                </ul>
+              </nav>
+              <div class="logout">
+                <button onclick="logout()">Logout</button>
+              </div>
+            </div>
+          </header>
+        </div>
+    </section>
+    <div class="emp_det4">
+        <section id="review-reports" class="section4">
+          <section class="table_header4">
+            <h1>Review Reports</h1>
+                <!-- <div class="year-selector4">
+                  <label for="year-select">Select Financial Year:</label>
+                  <select id="year-select">
+                    <option value="2023">FY 2020-21</option>
+                    <option value="2021">FY 2021-22</option>
+                    <option value="2022">FY 2022-23</option>
+                    <option value="2023">FY 2023-24</option>
+                  </select>
+              </div> -->
+          </section>
+          <section class="table_body4">
+            <div class="container">
+                <table>
+                  <thead>
+                    <tr>
+                        <th class="header-cell">Project Name</th>
+                        <th class="header-cell">Project ID</th>
+                        <th class="header-cell">Name of employees assigned</th>
+                        <th class="header-cell">Submission Date</th>
+                        <th class="header-cell">Remarks</th>
+                        <th class="header-cell">Save Remarks</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Project X</td>
+                      <td>PTS001</td>
+                      <td>Manish</td>
+                      <td>2023-10-29</td>
+                      <td>
+                        <label for="employee-select">Select Remarks</label>
+                        <div class="remarkselect">
+                        <select id="remark-select">
+                            <option value="Employee A">Very Good</option>
+                            <option value="Employee B">Good</option>
+                            <option value="Employee C">Average</option>
+                            <option value="Employee D">Bad</option>
+                            <option value="Employee D">Worst</option>
+                        </select>
+                      </td>
+                      <td><button>Save</button></td>
+                    </tr>
+                    <tr>
+                      <td>Project Y</td>
+                      <td>PTS002</td>
+                      <td><ul><li>Piyali</li><li>Neeta</li></ul></td>
+                      <td>2023-10-29</td>
+                      <td>
+                        <label for="employee-select">Select Remarks</label>
+                        <div class="remarkselect">
+                        <select id="remark-select">
+                            <option value="Employee A">Very Good</option>
+                            <option value="Employee B">Good</option>
+                            <option value="Employee C">Average</option>
+                            <option value="Employee D">Bad</option>
+                            <option value="Employee D">Worst</option>
+                           
+                        </select>
+                      </td>
+                      <td><button>Save</button></td>
+                      </tr>
+                      <tr>
+                        <td>Project Z</td>
+                        <td>PTS003</td>
+                        <td>Shivansh</td>
+                        
+                        <td>2023-10-29</td>
+                        <td>
+                          <label for="employee-select">Select Remarks</label>
+                          <div class="remarkselect">
+                          <select id="remark-select">
+                              <option value="Employee A">Very Good</option>
+                              <option value="Employee B">Good</option>
+                              <option value="Employee C">Average</option>
+                              <option value="Employee D">Bad</option>
+                              <option value="Employee D">Worst</option>
+                             
+                          </select>
+                        </td>
+                        <td><button>Save</button></td>
+                      </tr>
+                    
+                    
+                  </tbody>
+                </table>
+              </div>
+        </section>
+    </div>
+</body>
+</html>
